@@ -1,0 +1,19 @@
+
+
+.modal {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 5;
+    border: 1px solid black;
+    width: 50%;
+    background-color: #FFFFFF;
+}
+.title {
+    color: black;
+}
+.info {
+    color: gray;
+    font-size: 0.7rem;
+}

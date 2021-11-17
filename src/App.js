@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/presentation/Header';
+import Content from './components/presentation/Content';
+import { ModalContext } from './components/container/modalContext';
+import ModalDefault from './components/presentation/ModalDefault';
+import { useContext } from 'react';
+import Context from './components/container/modalContext';
+
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ModalContext>
+        <Header />
+        <Content />
+        <ModalDefault />
+      </ModalContext>
     </div>
   );
 }

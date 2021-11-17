@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap");
+
+.header {
+  position: relative;
+  z-index: 1;
+}
+.title {
+  position: absolute;
+  top: 48px;
+  left: 166px;
+}
+.navMenu {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  color: #ffffff;
+  font-family: "Commissioner";
+  font-weight: 500;
+  font-size: 0.7rem;
+  width: 225px;
+  position: absolute;
+  top: 50px;
+  left: 1050px;
+}

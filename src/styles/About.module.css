@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap");
+
+.about {
+    /* text-align: center; */
+    background-color: #ffffff;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 5px;
+    padding-bottom: 1rem;
+  }
+  .title {
+    font-family: 'Commissioner';
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-top: 2rem;
+    padding-left: 10%;
+  }
+  .content {
+    color: hsl(0, 0%, 48%);
+    font-family: "Commissioner";
+    font-size: 0.9rem;
+    padding: 2rem 10% 0 10%;
+  }

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap");
+
+.stand {
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid hsl(0, 0%, 48%);
+  border-radius: 5px;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-family: "Commissioner";
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+}
+.pledge {
+  font-family: "Commissioner";
+  color: hsl(176, 50%, 47%);
+  font-size: 1rem;
+  font-weight: 500;
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+}
+.content {
+  color: hsl(0, 0%, 48%);
+  font-family: "Commissioner";
+  font-size: 0.9rem;
+  padding: 2rem;
+}
+.footing {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem 2rem 2rem;
+}
+.footingSub {
+  display: flex;
+  justify-content: start;
+}
+.number {
+  font-family: "Commissioner";
+  font-size: 1.5rem;
+  color: black;
+}
+.numberSub {
+  font-family: "Commissioner";
+  font-size: 1rem;
+  color: hsl(0, 0%, 48%);
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+.reward {
+  background-color: hsl(176, 50%, 47%);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.reward:hover {
+  cursor: pointer;
+  background-color: hsl(176, 72%, 28%);
+}
